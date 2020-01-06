@@ -10,8 +10,8 @@ import java.util.List;
 public class TestCandidate {
 	public static void main(String[] args) {
 		Candidate c1 = new Candidate("Popescu", 10, DepartmentName.MARKETING);
-		Candidate c2 = new Candidate();
-		Candidate c3 = new Candidate("Ionescu");
+		Candidate c2 = new Candidate("Popescu", 7, DepartmentName.MARKETING);
+		Candidate c3 = new Candidate("Popescu", 6, DepartmentName.PRODUCTION);
 		Company company = new Company();
 		
 		List<Candidate> candidates = new ArrayList<>();
