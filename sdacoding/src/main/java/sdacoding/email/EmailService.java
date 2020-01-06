@@ -1,5 +1,5 @@
 
-package sdacoding.email;
+package sdacoding2.email;
 
 import com.sun.net.ssl.internal.ssl.Provider;
 

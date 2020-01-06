@@ -7,20 +7,21 @@ public class Candidate {
 	private int levelOfCompetence;
 	private CandidateStatus status;
 	private DepartmentName departmentName;
-	private Gender gender;
 	
 	public Candidate() {
 	}
 	
+	public Candidate(String name) {
+		this.name = name;
+	}
+	
 	public Candidate(String name,
 					 int levelOfCompetence,
-					 DepartmentName departmentName,
-					 Gender gender) {
+					 DepartmentName departmentName) {
 		this.name = name;
 		this.levelOfCompetence = levelOfCompetence;
-		this.departmentName = departmentName;
-		this.gender = gender;
 		this.status = CandidateStatus.AWAITING_RESPONSE;
+		this.departmentName = departmentName;
 	}
 	
 	public String getName() {
@@ -55,14 +56,6 @@ public class Candidate {
 		this.departmentName = departmentName;
 	}
 	
-	public Gender getGender() {
-		return gender;
-	}
-	
-	public void setGender(Gender gender) {
-		this.gender = gender;
-	}
-	
 	@Override
 	public String toString() {
 		return "\nCandidate{" +
@@ -70,7 +63,6 @@ public class Candidate {
 				", levelOfCompetence=" + levelOfCompetence +
 				", status=" + status +
 				", departmentName=" + departmentName +
-				", gender=" + gender +
 				'}';
 	}
 }

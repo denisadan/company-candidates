@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4cf84a4d-ed04-4bef-8aaf-e59aa88e4372" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyCandidates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candidati-acceptati.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candidati-initiali.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/candidati-acceptati.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/candidati-initiali.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/candidate/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/candidate/CandidateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/candidate/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/company/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/department/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/department/DepartmentName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/department/Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/department/Marketing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/department/Production.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/exceptions/EvaluationIncapacityException.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\dandenisa\Desktop\New folder (2)\CompanyCandidates\CompanyCandidates\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W1bEwrxHZ6Y1hRynDQ3Z3fb42G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sdacoding.Main" />
+      <module name="sdacoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sdacoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cf84a4d-ed04-4bef-8aaf-e59aa88e4372" name="Default Changelist" comment="" />
+      <created>1578319939459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578319939459</updated>
+      <workItem from="1578319942524" duration="3336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sdacoding/src/main/java/sdacoding/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

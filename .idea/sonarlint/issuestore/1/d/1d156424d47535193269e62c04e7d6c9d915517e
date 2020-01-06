@@ -1,0 +1,7 @@
+
+Jsquid:S1191"5Use classes from the Java API instead of Sun classes.(úºÔ‹
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Usquid:CallToDeprecatedMethod"0Remove this use of "Provider"; it is deprecated.(Ø†Ğ~
+gsquid:S4499"REnable server identity validation, set "mail.smtp.ssl.checkserveridentity" to true( Öˆ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŒØŞö

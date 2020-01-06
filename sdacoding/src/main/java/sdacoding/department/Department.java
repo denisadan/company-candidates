@@ -1,35 +1,28 @@
 package sdacoding.department;
 
+
 import sdacoding.candidate.Candidate;
 import sdacoding.candidate.CandidateStatus;
 
 public class Department implements Evaluator {
 	private DepartmentName name;
 	private int minLevelOfCompetence;
-	private int openPositions;
+	
+	public Department() {
+	}
 	
 	public Department(DepartmentName name,
-					  int minLevelOfCompetence,
-					  int openPositions) {
+					  int minLevelOfCompetence) {
 		this.name = name;
 		this.minLevelOfCompetence = minLevelOfCompetence;
-		this.openPositions = openPositions;
 	}
 	
-	public CandidateStatus evaluateBasedOnCompetenceLevel(Candidate candidate) {
-		return CandidateStatus.AWAITING_RESPONSE;
+	@Override
+	public void evaluate(Candidate candidate) {
+		if (candidate.getLevelOfCompetence() > this.minLevelOfCompetence){
+			candidate.setStatus(CandidateStatus.ACCEPTED);
+		} else {
+			candidate.setStatus(CandidateStatus.REJECTED);
+		}
 	}
-	
-	public CandidateStatus evaluateBasedOnOtherCriteria(Candidate candidate) {
-		return CandidateStatus.AWAITING_RESPONSE;
-	}
-	
-	public int getMinLevelOfCompetence() {
-		return minLevelOfCompetence;
-	}
-	
-	public int getOpenPositions() {
-		return openPositions;
-	}
-	
 }
